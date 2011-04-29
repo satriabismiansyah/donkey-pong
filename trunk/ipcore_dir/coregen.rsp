@@ -1,0 +1,10 @@
+NEWPROJECT "C:/Users/Ali/Documents/vhdl/prsq/ipcore_dir/"
+SETPROJECT "C:/Users/Ali/Documents/vhdl/prsq/ipcore_dir/"
+SET BusFormat = BusFormatAngleBracketNotRipped
+SET devicefamily = spartan3e
+SET device = xc3s100e
+SET package = cp132
+SET speedgrade = -4
+SET FlowVendor = Foundation_iSE
+SET VerilogSim = True
+SET VHDLSim = True

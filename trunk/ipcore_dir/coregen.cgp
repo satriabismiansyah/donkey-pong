@@ -1,0 +1,22 @@
+# Date: Thu Jun 10 21:58:05 2010
+
+SET addpads = False
+SET asysymbol = True
+SET busformat = BusFormatAngleBracketNotRipped
+SET createndf = False
+SET designentry = VHDL
+SET device = xc3s100e
+SET devicefamily = spartan3e
+SET flowvendor = Foundation_iSE
+SET formalverification = False
+SET foundationsym = False
+SET implementationfiletype = Ngc
+SET package = cp132
+SET removerpms = False
+SET simulationfiles = Behavioral
+SET speedgrade = -4
+SET verilogsim = True
+SET vhdlsim = True
+SET workingdirectory = .\tmp\
+
+# CRC: a0d49c31

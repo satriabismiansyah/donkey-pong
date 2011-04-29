@@ -1,0 +1,14 @@
+# Output products list for <img>
+img.asy
+img.gise
+img.ise
+img.ngc
+img.sym
+img.v
+img.veo
+img.vhd
+img.vho
+img.xco
+img.xise
+img_flist.txt
+img_xmdf.tcl
