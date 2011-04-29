@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="prsq.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="clkgen.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="image.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="prsq.bgn"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="prsq.bit"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="prsq.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="prsq.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="prsq.drc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="prsq.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="prsq.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="prsq.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="prsq.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="prsq.ngr"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="prsq.ntrc_log"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="prsq.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="prsq.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="prsq.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="prsq.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="prsq.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="prsq.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="prsq.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="prsq.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="prsq.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="prsq.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="prsq.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="prsq.ut"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="prsq.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="prsq.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="prsq_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="prsq_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="prsq_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="prsq_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="prsq_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="prsq_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="prsq_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="prsq_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="prsq_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="prsq_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="prsq_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="prsq_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="prsq_vhdl.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BCD" xil_pn:name="prsq_xdb/cst.xbcd"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="prsq_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1276246040" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3418866178078708973" xil_pn:start_ts="1276246040">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1276246040" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1743108817465437014" xil_pn:start_ts="1276246040">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1276246040" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1276246040">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1276246040" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-9044832904953873877" xil_pn:start_ts="1276246040">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1276246040" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:start_ts="1276246040">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1276246040" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1287741827815307272" xil_pn:start_ts="1276246040">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1276255491" xil_pn:in_ck="5828803877938038525" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="2327328400843942255" xil_pn:start_ts="1276255445">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="prsq.cmd_log"/>
+      <outfile xil_pn:name="prsq.lso"/>
+      <outfile xil_pn:name="prsq.ngc"/>
+      <outfile xil_pn:name="prsq.ngr"/>
+      <outfile xil_pn:name="prsq.ntrc_log"/>
+      <outfile xil_pn:name="prsq.prj"/>
+      <outfile xil_pn:name="prsq.stx"/>
+      <outfile xil_pn:name="prsq.syr"/>
+      <outfile xil_pn:name="prsq.xst"/>
+      <outfile xil_pn:name="prsq_vhdl.prj"/>
+      <outfile xil_pn:name="prsq_xst.xrpt"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1276246084" xil_pn:in_ck="-4157520931471724388" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-8133818477639640472" xil_pn:start_ts="1276246084">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="prsq_xdb/cst.xbcd"/>
+    </transform>
+    <transform xil_pn:end_ts="1276255504" xil_pn:in_ck="-8102620801135034424" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-7991950375623835709" xil_pn:start_ts="1276255491">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="prsq.bld"/>
+      <outfile xil_pn:name="prsq.cmd_log"/>
+      <outfile xil_pn:name="prsq.ngd"/>
+      <outfile xil_pn:name="prsq_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1276255519" xil_pn:in_ck="-2628617418047691351" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-1303429204059397298" xil_pn:start_ts="1276255504">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="prsq.pcf"/>
+      <outfile xil_pn:name="prsq_map.map"/>
+      <outfile xil_pn:name="prsq_map.mrp"/>
+      <outfile xil_pn:name="prsq_map.ncd"/>
+      <outfile xil_pn:name="prsq_map.ngm"/>
+      <outfile xil_pn:name="prsq_map.xrpt"/>
+      <outfile xil_pn:name="prsq_summary.xml"/>
+      <outfile xil_pn:name="prsq_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1276255665" xil_pn:in_ck="7215001034242538274" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="6126724075621793613" xil_pn:start_ts="1276255519">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="prsq.ncd"/>
+      <outfile xil_pn:name="prsq.pad"/>
+      <outfile xil_pn:name="prsq.par"/>
+      <outfile xil_pn:name="prsq.ptwx"/>
+      <outfile xil_pn:name="prsq.unroutes"/>
+      <outfile xil_pn:name="prsq.xpi"/>
+      <outfile xil_pn:name="prsq_pad.csv"/>
+      <outfile xil_pn:name="prsq_pad.txt"/>
+      <outfile xil_pn:name="prsq_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1276255673" xil_pn:in_ck="4925129317417" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="287829442711806529" xil_pn:start_ts="1276255665">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="prsq.bgn"/>
+      <outfile xil_pn:name="prsq.bit"/>
+      <outfile xil_pn:name="prsq.drc"/>
+      <outfile xil_pn:name="prsq.ut"/>
+    </transform>
+    <transform xil_pn:end_ts="1276255665" xil_pn:in_ck="-5774045110904463963" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="-4493182691236185209" xil_pn:start_ts="1276255660">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="prsq.twr"/>
+      <outfile xil_pn:name="prsq.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

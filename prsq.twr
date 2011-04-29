@@ -1,0 +1,73 @@
+--------------------------------------------------------------------------------
+Release 11.4 Trace  (nt)
+Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\11.1\ISE\bin\nt\unwrapped\trce.exe -ise U:/i2/PR202/prsq/prsq.ise
+-intstyle ise -v 3 -s 4 -fastpaths -xml prsq.twx prsq.ncd -o prsq.twr prsq.pcf
+-ucf vga.ucf
+
+Design file:              prsq.ncd
+Physical constraint file: prsq.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2009-11-16)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock clk_50mhz to Pad
+-------------+------------+------------------+--------+
+             | clk (edge) |                  | Clock  |
+Destination  |   to PAD   |Internal Clock(s) | Phase  |
+-------------+------------+------------------+--------+
+clk_100hz_out|    7.603(R)|clk_50mhz_BUFGP   |   0.000|
+clk_out      |    7.724(R)|clk_50mhz_BUFGP   |   0.000|
+speaker_out  |   10.789(R)|clk_50mhz_BUFGP   |   0.000|
+-------------+------------+------------------+--------+
+
+Clock to Setup on destination clock clk_50mhz
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk_50mhz      |    5.808|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+robot          |speaker_out    |   18.536|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Jun 11 13:27:44 2010 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 93 MB
+
+Total REAL time to Trace completion: 3 secs 
+Total CPU time to Trace completion: 2 secs 
+
+
+
