@@ -1,0 +1,43 @@
+//! **************************************************************************
+// Written by: Map L.68 on Fri Jun 11 13:25:14 2010
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "rgb_out<0>" LOCATE = SITE "C9" LEVEL 1;
+COMP "rgb_out<1>" LOCATE = SITE "H13" LEVEL 1;
+COMP "rgb_out<2>" LOCATE = SITE "J13" LEVEL 1;
+COMP "rgb_out<3>" LOCATE = SITE "F14" LEVEL 1;
+COMP "rgb_out<4>" LOCATE = SITE "G13" LEVEL 1;
+COMP "rgb_out<5>" LOCATE = SITE "G14" LEVEL 1;
+COMP "rgb_out<6>" LOCATE = SITE "C14" LEVEL 1;
+COMP "rgb_out<7>" LOCATE = SITE "D13" LEVEL 1;
+COMP "rgb_out<8>" LOCATE = SITE "F13" LEVEL 1;
+COMP "padon" LOCATE = SITE "K3" LEVEL 1;
+COMP "padone2" LOCATE = SITE "A13" LEVEL 1;
+COMP "reset" LOCATE = SITE "N3" LEVEL 1;
+COMP "robot" LOCATE = SITE "L3" LEVEL 1;
+COMP "padtwo2" LOCATE = SITE "C12" LEVEL 1;
+COMP "ps2c" LOCATE = SITE "B1" LEVEL 1;
+COMP "ps2d" LOCATE = SITE "C3" LEVEL 1;
+COMP "led_on<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "led_on<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "clk_50mhz" LOCATE = SITE "B8" LEVEL 1;
+COMP "led_on<2>" LOCATE = SITE "M13" LEVEL 1;
+COMP "led_on<3>" LOCATE = SITE "K14" LEVEL 1;
+COMP "padone" LOCATE = SITE "D12" LEVEL 1;
+COMP "padtwo" LOCATE = SITE "C13" LEVEL 1;
+COMP "h_sync_out" LOCATE = SITE "J14" LEVEL 1;
+COMP "led_out<0>" LOCATE = SITE "N13" LEVEL 1;
+COMP "led_out<1>" LOCATE = SITE "M12" LEVEL 1;
+COMP "led_out<2>" LOCATE = SITE "L13" LEVEL 1;
+COMP "led_out<3>" LOCATE = SITE "P12" LEVEL 1;
+COMP "led_out<4>" LOCATE = SITE "N11" LEVEL 1;
+COMP "led_out<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "led_out<6>" LOCATE = SITE "H12" LEVEL 1;
+COMP "v_sync_out" LOCATE = SITE "K13" LEVEL 1;
+COMP "led_out<7>" LOCATE = SITE "L14" LEVEL 1;
+COMP "speaker_out" LOCATE = SITE "B7" LEVEL 1;
+NET "clk_50mhz_BUFGP/IBUFG" BEL "clk_50mhz_BUFGP/BUFG.GCLKMUX"
+        USELOCALCONNECT;
+SCHEMATIC END;
+

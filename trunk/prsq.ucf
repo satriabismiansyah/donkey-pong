@@ -1,0 +1,17 @@
+
+# PlanAhead generated physical constraints 
+
+NET "clk_50mhz" LOC = B8;
+NET "reset" LOC = N3;
+
+NET "padone" LOC = D12;#D12
+NET "padtwo" LOC = C13;# C13
+NET "padone2" LOC = A13;# A13
+NET "padtwo2" LOC = C12;#C12
+NET "padon" LOC = K3;
+NET "robot" LOC = L3;
+
+NET "speaker_out" LOC = B7;
+
+NET "ps2d" LOC = C3;
+NET "ps2c" LOC = B1;

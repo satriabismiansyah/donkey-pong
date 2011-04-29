@@ -1,0 +1,34 @@
+
+# PlanAhead generated physical constraints 
+
+NET "h_sync_out" LOC = J14;
+NET "v_sync_out" LOC = K13;
+
+NET "rgb_out[1]" LOC = H13;
+NET "rgb_out[2]" LOC = J13;
+NET "rgb_out[3]" LOC = F14;
+NET "rgb_out[4]" LOC = G13;
+NET "rgb_out[5]" LOC = G14;
+NET "rgb_out[6]" LOC = C14;
+NET "rgb_out[7]" LOC = D13;
+NET "rgb_out[8]" LOC = F13;
+
+
+NET "led_out[7]" LOC = L14;
+NET "led_out[6]" LOC = H12;
+NET "led_out[5]" LOC = N14;
+NET "led_out[4]" LOC = N11;
+NET "led_out[3]" LOC = P12;
+NET "led_out[2]" LOC = L13;
+NET "led_out[1]" LOC = M12;
+NET "led_out[0]" LOC = N13;
+
+NET "led_on[0]" LOC = F12;
+NET "led_on[1]" LOC = J12;
+NET "led_on[2]" LOC = M13;
+NET "led_on[3]" LOC = K14;
+
+
+
+
+NET "rgb_out[0]" LOC = C9; 
