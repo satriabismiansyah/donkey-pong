@@ -1,0 +1,1 @@
+In this project I developed a ping pong game using VHDL description language on the BASYS2 board from Digilent with a Xilinx FPGA.
